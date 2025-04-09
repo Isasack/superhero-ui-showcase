@@ -10,7 +10,7 @@ import Phone from "../components/phone";
 import VantaClouds from "../components/vantaClouds";
 import { Typewriter } from "react-simple-typewriter";
 import LogoShowcase from "../components/logoShowcase";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import CountUp from "react-countup";
 
 const Home = () => {
