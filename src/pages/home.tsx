@@ -31,7 +31,7 @@ const Home = () => {
             icon: <RiLightbulbLine />,
             text: "Welcome to Intuitive Investing",
             top: "45%",
-            left: "10%",
+            left: "15%",
             aos: "fade-up",
         },
         {
@@ -52,7 +52,7 @@ const Home = () => {
             icon: <RiAwardFill />,
             text: "An award-winning investing experience",
             top: "5%",
-            left: "15%",
+            left: "17%",
             aos: "fade-down",
         },
     ];
@@ -148,8 +148,8 @@ const Home = () => {
                                 "Get Invested. Trade For $2",
                             ]}
                             typeSpeed={80}
-                            deleteSpeed={50}
-                            delaySpeed={4000}
+                            deleteSpeed={40}
+                            delaySpeed={5000}
                             loop={true}
                         />
                     </motion.section>
