@@ -4,7 +4,7 @@ import transparantLogo from "../assets/transparantLogo.png";
 const Navbar = () => {
     return (
         <nav
-            className="fixed left-[50%] top-8 flex w-fit -translate-x-[50%] items-center gap-6 rounded-xl border-[1px] border-neutral-100 bg-neutral-50 p-2 text-md text-[#058cf8] font-medium z-20  shadow-lg">
+            className="fixed left-[50%] top-8 flex w-max -translate-x-[50%] items-center gap-6 rounded-xl border-[1px] border-neutral-100 bg-neutral-50 p-2 text-md text-[#058cf8] font-medium z-20  shadow-lg">
             <img src={transparantLogo} className="h-8" alt="Logo" />
             <Button>Super</Button>
             <Button>Invest</Button>
