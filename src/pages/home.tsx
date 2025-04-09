@@ -45,7 +45,7 @@ const Home = () => {
             icon: <RiRocketLine />,
             text: "Easy to use, intuitive design",
             top: "60%",
-            left: "80%",
+            left: "70%",
             aos: "fade-left",
         },
         {
