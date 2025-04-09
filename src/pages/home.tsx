@@ -61,8 +61,8 @@ const Home = () => {
         {
             icon: <RiLightbulbLine />,
             text: "Invest Intuitively",
-            top: "10%",
-            left: "5%",
+            top: "80%",
+            left: "75%",
             aos: "fade-up",
         },
         {
@@ -82,8 +82,8 @@ const Home = () => {
         {
             icon: <RiAwardFill />,
             text: "Award Winning",
-            top: "80%",
-            left: "75%",
+            top: "10%",
+            left: "5%",
             aos: "fade-down",
         },
     ];
@@ -119,7 +119,7 @@ const Home = () => {
                                 <motion.div
                                     animate={{ y: [0, -3, 0] }}
                                     transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-                                    className="mt-1 bg-white/50 text-black text-xs px-2 py-1 rounded shadow text-center"
+                                    className="mt-1 bg-white/50 text-black text-sm px-2 py-1 rounded shadow text-center"
                                 >
                                     {item.text}
                                 </motion.div>
@@ -137,7 +137,7 @@ const Home = () => {
                     </div>
                     <motion.section
                         data-aos="fade"
-                        className="relative text-3xl sm:text-5xl font-bold text-neutral-900 mt-6 z-10 px-4 py-2 bg-white/50 rounded-xl shadow-lg"
+                        className="relative text-2xl sm:text-3xl font-bold text-neutral-900 mt-6 z-10 px-4 py-2 bg-white/50 rounded-xl shadow-lg"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
